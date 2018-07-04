@@ -1,0 +1,19 @@
+[{
+        "id": 1,
+        "name": "Pasha Kashin",
+        "company": "123 Designs",
+        "phone": "555-555-777"
+    },
+    {
+        "id": 2,
+        "name": "Masha Kashia",
+        "company": "123 Designs",
+        "phone": "555-555-888"
+    },
+    {
+        "id": 3,
+        "name": "Sasha Kashin",
+        "company": "123 Designs",
+        "phone": "555-555-999"
+    }
+]
