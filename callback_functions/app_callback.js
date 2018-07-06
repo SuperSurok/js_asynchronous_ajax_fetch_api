@@ -23,6 +23,8 @@ const posts = [
 
 // getPosts();
 
+
+// Callback
 function createPost(post, callback) {
     setTimeout(function() {
         posts.push(post);

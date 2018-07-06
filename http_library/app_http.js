@@ -1,5 +1,12 @@
 const http = new easyHTTP;
 
+// Create Data
+const someData = {
+    title: 'Custom Post',
+    body: 'This Custom Post'
+};
+
+
 // Get Request
 // (function() {
 // // Get Posts
@@ -25,12 +32,6 @@ const http = new easyHTTP;
 
 // Post Request
 
-// Create Data
-const someData = {
-    title: 'Custom Post',
-    body: 'This Custom Post'
-};
-
 // Create Post
 // http.post('https://jsonplaceholder.typicode.com/posts', someData, function(err, post) {
 //     if (err) {
@@ -52,7 +53,6 @@ const someData = {
 //     });
 
 // Delete Post
-
 http.delete('https://jsonplaceholder.typicode.com/posts/1',
     function(err, response) {
         if (err) {
